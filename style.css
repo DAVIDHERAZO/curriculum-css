@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    display: flex;
+}
+.left{
+    background-color: blue;
+    width: 35%;
+    color: white;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}
+.foto img {
+    height: 20vh;
+    margin-top: 20px;
+}
+h3 {
+    margin: 6px;
+    text-align: center;
+}
+.figuras {
+    display: flex;
+    margin-top: 12px;
+}
+.iconos-contacto {
+    display: flex;
+    flex-direction: column;
+}
+.iconos-contacto img {
+    padding: 3px 10px 3px 45px;
+    background-color: white;
+    height: 2rem;
+    margin-bottom: 4px;
+    border-radius: 0 .8rem .8rem 0;
+}
+.info-personal {
+    display: flex;
+    flex-direction: column;
+}
+.parrafo {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.palabras {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 30%;
+}
+.porcentajes {
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+}
+.porcent {
+    align-items: center;
+    padding: 8px;
+    margin-top: 3px;
+}
+.nivel, .nivel2 {
+    background-color: black;
+    text-align: center;
+    border-radius: .5rem;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.p-habilidades {
+    margin-bottom: 8px;
+    padding: 2px;
+}
+.html {
+    background-color: white;
+    border-radius: .3rem;
+    width: 89%;
+}
+.css {
+    background-color: white;
+    border-radius: .3rem;
+    width: 70%;
+}
+.javascript {
+    background-color: white;
+    border-radius: .3rem;
+    width: 85%;
+}
+.nodejs {
+    background-color: white;
+    border-radius: .3rem;
+    width: 75%;
+}
+.express {
+    background-color: white;
+    border-radius: .3rem;
+    width: 87%;
+}
+.mongodb {
+    background-color: white;
+    border-radius: .3rem;
+    width: 90%;
+}
+.softwares {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;   
+}
+.palabras2 {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 30%;
+}
+.porcentajes2 {
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+}
+.porcent2 {
+    align-items: center;
+    padding: 8px;
+    margin-top: 6px;
+}
+.p-softwares {
+    margin-bottom: 8px;
+    padding: 2px;
+}
+.microsoft365 {
+    background-color: white;
+    border-radius: .3rem;
+    width: 100%;
+}
+.VSCODE {
+    background-color: white;
+    border-radius: .3rem;
+    width: 90%;
+}
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hobbies img {
+    background-color: white;
+    height: 40px;
+    margin: 2px 6px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.right {
+    padding-left: 30px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.titulo {
+    color: blue;
+    margin-bottom: 30px;
+}
+.infopersonal, .educacion, .experiencia {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.infopersonal {
+    width: 260px;
+    margin: 70px 10px 10px 0px;
+}
+.educacion {
+    width: 130px;
+    margin: 70px 10px 10px 0px;
+}
+.experiencia {
+    width: 145px;
+    margin: 70px 10px 10px 0px;
+}
+p {
+    margin-bottom: 30px;   
+}
+li {
+    margin-bottom: 15px;
+}
